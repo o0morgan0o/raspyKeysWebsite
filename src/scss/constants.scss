@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+// Variables
+$primary: red;
+$light: white;
+$dark: black;
+// $secondary: #f4f4f4;
+
+$fontFamily: "Montserrat", sans-serif;
+$fontSize: 2em;
+$fontSizeNav: 0.6em;
+$fontSizeHead: 0.5em;
+
+$fontWeightNav: 200;
+$fontWeightHead: 600;
+$sectionSpace: 1.5em;
+
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// @import "./_style.scss";
+// @import "./_navbar.scss";
+
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+}

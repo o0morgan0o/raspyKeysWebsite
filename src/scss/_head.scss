@@ -1,0 +1,41 @@
+@import "./constants.scss";
+
+.row {
+  height: 100%;
+}
+
+.head-container {
+  margin-top: $sectionSpace;
+  height: 80vh;
+  width: 100%;
+}
+
+.section-picture {
+  background-color: yellow;
+  height: 100%;
+  width: 100%;
+}
+
+.section-card {
+  .section-card-picture {
+    height: 60%;
+  }
+
+  .section-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 40%;
+    background-color: green;
+    font-size: $fontSizeHead;
+    font-weight: $fontWeightHead;
+  }
+  button {
+    margin: auto;
+    margin-left: 0;
+  }
+}
+
+button {
+}

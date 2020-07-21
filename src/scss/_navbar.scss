@@ -1,0 +1,47 @@
+@import "./constants.scss";
+
+.navbar {
+}
+
+.navbar-ul {
+  margin-left: 50px;
+  //   margin-right: 100px;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: auto;
+}
+
+li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  .nav-link {
+    padding-left: 0;
+  }
+}
+
+.nav-link {
+  color: $light;
+  font-size: $fontSizeNav;
+  font-weight: $fontWeightNav;
+  //   letter-spacing: 0.1em;
+  transform: scale(1, 1.04);
+}
+.navbar-left {
+  flex-basis: 770px;
+  border-radius: 0 30px 30px 0;
+}
+.navbar-right {
+  position: relative;
+  height: auto;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+img {
+  position: absolute;
+  top: 0;
+  margin: auto;
+  bottom: 0;
+  width: 450px;
+  height: auto;
+}

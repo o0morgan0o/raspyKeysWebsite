@@ -1,0 +1,58 @@
+@import "./constants.scss";
+
+* {
+  outline: 1px solid red;
+  outline-offset: -1px;
+}
+$myColor: green;
+html,
+body {
+  font-family: $fontFamily;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+.App {
+  opacity: 1;
+  opacity: 0.4;
+  font-size: $fontSize;
+}
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+html,
+body {
+  width: 100%;
+  height: 10000px;
+  margin: 0;
+}
+
+.bg-dev {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 7000px;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  z-index: -3;
+  background-image: url("../img/back.jpg");
+  background-size: contain;
+  opacity: 30%;
+}
+body {
+  // margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+  //   "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  //   sans-serif;
+  // -webkit-font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+}
