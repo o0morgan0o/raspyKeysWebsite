@@ -1,22 +1,40 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&display=swap");
 // Variables
-$primary: red;
+$primary: #61307f;
 $light: white;
 $dark: black;
+$lightGray: #f7f7f7;
+// $lightGray: #ccc;
 // $secondary: #f4f4f4;
 
 $fontFamily: "Montserrat", sans-serif;
 $fontSize: 2em;
-$fontSizeNav: 0.6em;
-$fontSizeHead: 0.5em;
+$fontSizeNav: 1.2em;
+$fontSizeHead: 1em;
 
 $fontWeightNav: 200;
 $fontWeightHead: 600;
 $sectionSpace: 1.5em;
+$fontWeightBold: 600;
+$fontWeightSuperBold: 800;
 
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 // @import "./_style.scss";
 // @import "./_navbar.scss";
+
+h1 {
+  font-size: 1.4em;
+  font-weight: $fontWeightSuperBold;
+  color: $primary;
+}
+h2 {
+  font-size: 1em;
+  font-weight: $fontWeightSuperBold;
+  color: $primary;
+}
+p {
+  font-size: 0.8em;
+}
 
 @media (max-width: 992px) {
 }

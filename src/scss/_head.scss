@@ -5,20 +5,28 @@
 }
 
 .head-container {
-  margin-top: $sectionSpace;
   height: 80vh;
   width: 100%;
 }
 
 .section-picture {
-  background-color: yellow;
   height: 100%;
   width: 100%;
+  background-image: url("../img/raspiAlone.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-origin: content-box;
 }
 
 .section-card {
   .section-card-picture {
     height: 60%;
+    background-image: url("../img/raspiHeadPic.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-position: center;
   }
 
   .section-card-text {
@@ -27,7 +35,6 @@
     justify-content: space-between;
     width: 80%;
     height: 40%;
-    background-color: green;
     font-size: $fontSizeHead;
     font-weight: $fontWeightHead;
   }
@@ -35,7 +42,12 @@
     margin: auto;
     margin-left: 0;
   }
-}
 
-button {
+  .btn {
+    // border-radius: 4px;
+    font-size: larger;
+    font-weight: 600;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
 }

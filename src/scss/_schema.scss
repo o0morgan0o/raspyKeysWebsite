@@ -1,0 +1,50 @@
+@import "./constants.scss";
+
+.schema-container {
+  .schema-bg {
+    background-color: $lightGray;
+    border-radius: 60px;
+    height: 700px;
+  }
+
+  .parts-container {
+    position: relative;
+  }
+
+  .card-component {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    // top: 40px;
+    // left: 0px;
+    // width: 100%;
+    // height: 200px;
+    // background-color: lightcoral;
+
+    .component-picture {
+      //   background-color: green;
+      width: 307px;
+      height: 234px;
+    }
+    .tooltip-container {
+      position: relative;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+    .component-tooltip {
+      position: absolute;
+      left: -40px;
+      //   top: 80px;
+      top: 40%;
+      //   background-color: yellow;
+      //   flex-grow: 2;
+    }
+    .component-tooltip-text {
+      position: absolute;
+      top: 80px;
+      margin-left: 12px;
+    }
+  }
+}
