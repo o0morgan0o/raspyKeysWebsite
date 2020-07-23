@@ -7,7 +7,7 @@ export default class CaseColor extends React.Component {
     }
     render() {
 
-        let size = 60;
+        let size = 54;
         return (
             <div className="d-flex flex-column"
                 style={{ width: "auto", height: "auto" }}>

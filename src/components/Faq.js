@@ -10,7 +10,7 @@ export default function Faq() {
             <div className="faq-question-answer col-12" id="faq">
                 <div className="container">
 
-                    <div className="col-8">
+                    <div className="col-lg-8 col-md-10 col-sm-12">
 
                         <h1 className="faq-title">FAQ</h1>
                         <br />
@@ -26,7 +26,8 @@ export default function Faq() {
                         Just plug the screen and the SD card in the raspberry, plug the power cable, plug a usb cable from the raspikeys to your digital keyboard, and plug an audio cable any sound system or speakers, and you'll be good to go !</p>
                         <h2 className="faq-question">Q: Are there different colors for the Case ?</h2>
                         <p className="faq-answer">Yes, you will be able to choose the case color for the RaspyKeys. The available colors will be:</p>
-                        <div className="case-color row justify-content-between ml-2 col-8">
+                        <div className="case-color row justify-content-between ml-2 col-lg-8 col-md-12 col-sm-12">
+
                             <CaseColor color={"#877ac9"} colorName={"purple"} />
                             <CaseColor color={"#9a7348"} colorName={"golden"} />
                             <CaseColor color={"#121212"} colorName={"black"} />

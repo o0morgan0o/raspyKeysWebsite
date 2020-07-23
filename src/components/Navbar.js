@@ -11,9 +11,9 @@ export default function Navbar() {
                 <div className="row ">
                     <div className="col-7 bg-dark py-1">
                         <ul className="d-flex my-auto">
-                            <li className="nav-item"> <a className="nav-link px-2" href="#video">PROJECT</a> </li>
-                            <li className="nav-item"> <a className="nav-link px-2" href="#about">ABOUT</a> </li>
-                            <li className="nav-item"> <a className="nav-link px-2" href="#faq">FAQ</a> </li>
+                            <li className="nav-item d-none d-md-block"> <a className="nav-link px-2" href="#video">PROJECT</a> </li>
+                            <li className="nav-item d-none d-md-block"> <a className="nav-link px-2" href="#about">ABOUT</a> </li>
+                            <li className="nav-item d-none d-md-block"> <a className="nav-link px-2" href="#faq">FAQ</a> </li>
                         </ul>
                     </div>
                     <a href="#" className="col-5">

@@ -2,7 +2,7 @@
 
 .head-container {
   height: 80vh;
-  max-height: 800px;
+  // max-height: 800px;
 }
 
 .head-text,
@@ -27,9 +27,9 @@ p {
   flex-direction: column;
   justify-content: space-between;
   .section-card-picture-top {
-    height: 40%;
+    height: 30%;
     background-image: url("../img/bg3.png");
-    opacity: 0.9;
+    opacity: 0.85;
     background-size: cover;
     background-repeat: no-repeat;
     background-origin: content-box;
@@ -48,9 +48,9 @@ p {
     height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 80%;
-    height: 40%;
+    // justify-content: center;
+    // width: 80%;
+    height: 55%;
     font-size: $fontSizeHead;
     font-weight: $fontWeightBold;
   }

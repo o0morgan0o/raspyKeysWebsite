@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&display=swap");
 
+:root {
+  --font-size-h1: 1.6em;
+  --font-size-h2: 1em;
+  --font-size-p: 0.8em;
+}
+
 // Variables
 $primary: #61307f;
 $light: white;
@@ -15,10 +21,6 @@ $fontSizeNav: 1.2em;
 $fontSizeHead: 1em;
 $fontSizeTooltip: 0.8em;
 
-$fontSizeP: 0.8em;
-$fontSizeH1: 1.6em;
-$fontSizeH2: 1em;
-
 $fontWeightNav: 200;
 $fontWeightStandard: 400;
 $fontWeightLightBold: 500;
@@ -29,27 +31,58 @@ $sectionSpace: 1.5em;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 @media (max-width: 1200px) {
-  $fontSizeH1: 0.2em !important;
+  // large devices
+  :root {
+    --font-size-h1: 1.4em;
+    --font-size-h2: 0.9em;
+    --font-size-p: 0.8em;
+  }
 }
 @media (max-width: 992px) {
+  // medium devices
+  :root {
+    --font-size-h1: 1.4em;
+    --font-size-h2: 0.9em;
+    --font-size-p: 0.8em;
+  }
 }
 @media (max-width: 768px) {
+  // small devices
+  :root {
+    --font-size-h1: 1.4em;
+    --font-size-h2: 0.9em;
+    --font-size-p: 0.8em;
+  }
 }
 @media (max-width: 576px) {
+  // xtra-small
+  :root {
+    --font-size-h1: 1.4em;
+    --font-size-h2: 0.9em;
+    --font-size-p: 0.8em;
+  }
+}
+@media (max-width: 380px) {
+  :root {
+    --font-size-h1: 1.2em;
+    --font-size-h2: 0.7em;
+    --font-size-p: 0.6em;
+  }
 }
 
 h1 {
-  font-size: $fontSizeH1;
+  // font-size: $fontSizeH1;
+  font-size: var(--font-size-h1);
   font-weight: $fontWeightSuperBold;
   color: $primary;
 }
 h2 {
-  font-size: $fontSizeH2;
+  font-size: var(--font-size-h2);
   font-weight: $fontWeightBold;
   color: $primary;
 }
 p {
-  font-size: $fontSizeP;
+  font-size: var(--font-size-p);
 }
 
 // dev

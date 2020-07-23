@@ -10,7 +10,7 @@ export default function Schema2() {
 
                 </div>
                 <div className="container container-piano-faq">
-                    <div className="bg-rectangle col-10 rounded shadow-5">
+                    <div className="bg-rectangle rounded shadow-5 col-lg-10 col-md-12 col-sm-12 col-xs-12">
                         <div className="col-12 piano-schema py-4"></div>
                         <div className="texttop p-2 rounded shadow-5">
                             <p className="m-0 p-0">

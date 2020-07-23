@@ -9,7 +9,7 @@ export default function Functions() {
             <div className="container">
                 <div className="row">
 
-                    <div className="functions-card col-4">
+                    <div className="functions-card col-lg-4 col-md-12">
                         <div className="functions-card-title d-flex">
                             <div className="svg-container-1 col-2"></div>
                             <h1 className="function-title col-10 ml-2">Ear Training</h1>
@@ -21,7 +21,7 @@ export default function Functions() {
                         </div>
                     </div>
 
-                    <div className="functions-card col-4">
+                    <div className="functions-card col-lg-4 col-md-12">
                         <div className="functions-card-title d-flex">
                             <div className="svg-container-2 col-2"></div>
                             <h1 className="function-title col-10 ml-2">DrumLoop Player</h1>
@@ -34,7 +34,7 @@ export default function Functions() {
                         </div>
                     </div>
 
-                    <div className="functions-card col-4">
+                    <div className="functions-card col-lg-4 col-md-12">
                         <div className="functions-card-title d-flex">
                             <div className="svg-container-3 col-2"></div>
                             <h1 className="function-title col-10 ml-2">Record & Practise</h1>

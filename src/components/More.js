@@ -7,11 +7,7 @@ export default function More() {
         <div className="bg-dark">
 
             <div className="container">
-
-                <div className=" more-container py-4 px-4 rounded bg-white col-8">
-
-
-
+                <div className=" more-container py-4 px-4 rounded bg-white col-lg-8 col-md-12 col-sm-12">
                     <h1>More ...</h1>
                     <br />
                     <p>Even thought the prototype of the RaspyKeys is functional, till the end of the Kickstarter, the design and the UI will be improved.

@@ -2,8 +2,11 @@
 
 .footer-container {
   // background-color: $black;
+  // background-color: $black;
+  background-color: $primary;
   p {
-    color: $primary;
+    color: $white;
     font-weight: $fontWeightBold;
+    background-color: $primary;
   }
 }

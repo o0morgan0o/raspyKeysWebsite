@@ -3,14 +3,16 @@
 .bg-triangle {
   border-bottom: 10px solid $black;
 }
-.container-piano-faq {
-  // border: 10px solid $black;
-}
 .schema-container {
   .schema-bg {
     background-color: $lightGray;
     border: 18px solid $primary;
+    // border-left: 40px solid $primary;
     height: 700px;
+    @media (max-width: 576px) {
+      padding: 20px;
+      height: inherit;
+    }
   }
 
   .parts-container {
@@ -21,34 +23,58 @@
     position: absolute;
     display: flex;
     flex-direction: row;
+    width: 100%;
+    @media (max-width: 576px) {
+      position: initial;
+      flex-direction: column;
+      top: 0;
+    }
 
     .component-picture {
-      //   background-color: green;
-      width: 307px;
-      height: 234px;
     }
     .tooltip-container {
       position: relative;
       display: flex;
       flex-direction: row;
       align-items: center;
+      @media (max-width: 576px) {
+        flex-direction: column;
+      }
     }
     .component-tooltip {
-      opacity: 0.8;
+      opacity: 0.9;
       position: absolute;
-      left: -40px;
-      top: 60%;
+      left: -110px;
+      top: 50%;
+      transform: translate(0, -50%);
+      @media (max-width: 576px) {
+        position: inherit;
+        left: 0;
+        top: 0;
+        transform: translate(0, 0);
+      }
+    }
+
+    .rect {
+      background-color: $darkGray;
+      height: 2px;
+      width: 80px;
+      position: absolute;
+      left: -75px;
+      top: 50%;
+      transform: translate(0, -50%);
+      z-index: -10;
+      opacity: 0.9;
     }
     .component-tooltip-text {
-      border-radius: 10px;
-      position: absolute;
       background-color: $darkGray;
       color: $white;
-      width: 500px;
       top: 60%;
+
       transform: translate(0, 0%);
       opacity: 0.9;
       p {
+        opacity: 1;
         font-size: $fontSizeTooltip;
       }
     }
