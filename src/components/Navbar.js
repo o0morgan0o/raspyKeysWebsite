@@ -5,28 +5,24 @@ import '../scss/_navbar.scss'
 
 export default function Navbar() {
     return (
-        <nav className="navbar py-0 mx-0">
-            <div className="d-flex w-100 h-100">
-                <div className="navbar-left bg-dark py-1">
-                    <div className="container h-100">
+        <div className="container-fluid bg-dark">
 
-                        <ul className="navbar-ul d-flex justify-content-between col-9">
-                            <li className="nav-item active"> <a className="nav-link" href="#">PROJECT</a> </li>
-                            <li className="nav-item"> <a className="nav-link" href="#">FAQ</a> </li>
-                            <li className="nav-item"> <a className="nav-link" href="#">CONTACT</a> </li>
-                            <li className="nav-item"> <a className="nav-link" href="#">LINKS</a> </li>
+            <nav className="container py-3 navbar navbar-dark">
+                <div className="row ">
+                    <div className="col-7 bg-dark py-1">
+                        <ul className="d-flex my-auto">
+                            <li className="nav-item"> <a className="nav-link px-2" href="#video">PROJECT</a> </li>
+                            <li className="nav-item"> <a className="nav-link px-2" href="#about">ABOUT</a> </li>
+                            <li className="nav-item"> <a className="nav-link px-2" href="#faq">FAQ</a> </li>
                         </ul>
-
                     </div>
+                    <a href="#" className="col-5">
+                        {/* <div className=" logo col-5"> */}
+                        {/* </div> */}
+                        <img src={logo} alt="logo" className="logo py-2 mx-4" />
+                    </a>
                 </div>
-                <div className="navbar-right py-0">
-                    <img
-                        src={logo}
-                        alt="RaspiKeys logo" />
-                </div>
-            </div>
-
-
-        </nav>
+            </nav>
+        </div>
     )
 }

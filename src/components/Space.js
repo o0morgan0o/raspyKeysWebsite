@@ -7,7 +7,7 @@ export default class Space extends Component {
     render() {
 
         return (
-            <div style={{ width: "100%", height: this.props.height }}>
+            <div className="space" style={{ width: "100%", height: this.props.height }}>
 
             </div >
         )

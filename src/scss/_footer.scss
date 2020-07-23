@@ -1,6 +1,9 @@
 @import "./constants.scss";
 
 .footer-container {
-  background-color: $black;
-  color: $white;
+  // background-color: $black;
+  p {
+    color: $primary;
+    font-weight: $fontWeightBold;
+  }
 }

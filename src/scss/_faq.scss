@@ -2,10 +2,8 @@
 
 .junction {
   width: 100%;
-  height: 10em;
-  padding-left: 140px;
-  //   position: absolute;
-  background: url("../svg/junction.svg");
+  height: 5em;
+  // background: url("../svg/junction.svg");
   background-origin: content-box;
   background-size: contain;
   background-repeat: no-repeat;
@@ -13,18 +11,18 @@
 }
 
 .faq-container {
-  // height: 1100px;
   position: relative;
-  background: url("../svg/triangle.svg");
-  background-size: 116% auto;
-  background-repeat: no-repeat;
-  // background-size: contain;
-  // position: absolute;
+}
+.bg-triangle {
   width: 100%;
-  height: 1200px;
-
-  //   width: 100%;
-  //   height: 800px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url("../svg/triangle.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 .container-piano-faq {
@@ -32,59 +30,52 @@
   flex-direction: column;
 }
 
-.bg-triangle {
-  //   background-color: red;
-  // background-color: orange;
-}
-
 .bg-rectangle {
   position: relative;
-  // position: absolute;
-  // top: -80px;
   background-color: $lightGray;
+  border: 18px solid $primary;
+  // background-color: $primary;
+  // opacity: 0.3;
   z-index: 13;
-  // opacity: 0.9;
-  border-radius: 60px;
   height: 500px;
 }
 
 .piano-schema {
-  background-color: green;
-
   position: absolute;
-  // top: 40px;
   background: url("../svg/piano.svg");
   background-origin: content-box;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  padding-left: 140px;
-  padding-right: 140px;
-  padding-top: 40px;
-  padding-bottom: 80px;
-  // padding: 80px;
 
-  // width: 50%;
-  // height: 700px;
   height: 100%;
   z-index: 15;
 }
 
 .textbelow {
-  margin-left: 3em;
-  margin-bottom: 3em;
   position: absolute;
+  background-color: $darkGray;
   bottom: 0;
   width: 40%;
+  p {
+    color: $white;
+  }
 }
 
 .texttop {
-  margin-right: 2em;
-  margin-top: 2em;
+  background-color: $darkGray;
   position: absolute;
-  top: 0;
+  top: 40%;
   right: 0;
+  transform: translate(50%, -50%);
   width: 20%;
+  p {
+    color: $white;
+  }
+}
+
+.faq-question-answer {
+  background-color: $black;
 }
 .faq-title {
   color: $white;
@@ -98,5 +89,5 @@
 
 .faq-answer {
   color: $white;
-  margin-bottom: 2.4em;
+  margin-bottom: 3.4em;
 }

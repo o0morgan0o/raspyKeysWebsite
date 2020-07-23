@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;800;900&display=swap");
+
 // Variables
 $primary: #61307f;
 $light: white;
 $dark: black;
 $lightGray: #f7f7f7;
+$darkGray: #333;
 // $lightGray: #ccc;
 // $secondary: #f4f4f4;
 
@@ -11,34 +13,55 @@ $fontFamily: "Montserrat", sans-serif;
 $fontSize: 2em;
 $fontSizeNav: 1.2em;
 $fontSizeHead: 1em;
+$fontSizeTooltip: 0.8em;
+
+$fontSizeP: 0.8em;
+$fontSizeH1: 1.6em;
+$fontSizeH2: 1em;
 
 $fontWeightNav: 200;
-$fontWeightHead: 600;
-$sectionSpace: 1.5em;
+$fontWeightStandard: 400;
+$fontWeightLightBold: 500;
 $fontWeightBold: 600;
 $fontWeightSuperBold: 800;
 
+$sectionSpace: 1.5em;
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-// @import "./_style.scss";
-// @import "./_navbar.scss";
 
-h1 {
-  font-size: 1.4em;
-  font-weight: $fontWeightSuperBold;
-  color: $primary;
+@media (max-width: 1200px) {
+  $fontSizeH1: 0.2em !important;
 }
-h2 {
-  font-size: 1em;
-  font-weight: $fontWeightSuperBold;
-  color: $primary;
-}
-p {
-  font-size: 0.8em;
-}
-
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+}
+
+h1 {
+  font-size: $fontSizeH1;
+  font-weight: $fontWeightSuperBold;
+  color: $primary;
+}
+h2 {
+  font-size: $fontSizeH2;
+  font-weight: $fontWeightBold;
+  color: $primary;
+}
+p {
+  font-size: $fontSizeP;
+}
+
+// dev
+
+* {
+  // outline: 1px solid red;
+  // outline-offset: -1px;
+  box-sizing: border-box;
+}
+
+.shadow-5 {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
 }

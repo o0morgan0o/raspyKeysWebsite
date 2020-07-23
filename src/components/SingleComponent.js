@@ -30,14 +30,15 @@ export default class SingleComponent extends Component {
                         backgroundPosition: "center",
                         backgroundSize: "contain",
                         width: `${sizePlusSymbol}px`,
-                        height: `${sizePlusSymbol}px`
+                        height: `${sizePlusSymbol}px`,
                     }}
                     />
 
-                    <div className="component-tooltip-text" style={{
-                        height: "40px"
+                    <div className="component-tooltip-text p-1 m-0 ml-2 shadow-5" style={{
                     }}>
-                        {this.props.description}
+                        <p className="text-light m-0 mx-2">
+                            {this.props.description}
+                        </p>
                     </div>
                 </div>
 

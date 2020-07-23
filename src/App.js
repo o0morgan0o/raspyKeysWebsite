@@ -4,10 +4,12 @@ import Head from './components/Head'
 import Functions from './components/Functions'
 import Video from './components/Video'
 import Schema from './components/Schema'
-import Contact from './components/Contact'
+import Schema2 from './components/Schema2'
+import More from './components/More'
 import Faq from './components/Faq'
 import Footer from './components/Footer'
 import Space from './components/Space'
+import SpaceBlack from './components/SpaceBlack'
 
 
 
@@ -17,7 +19,7 @@ function App() {
       <Navbar />
       <Space height={"3em"} />
       <Head />
-      <Space height={"2em"} />
+      <Space height={"5em"} />
       <Functions />
       <Space height={"3em"} />
       <Video />
@@ -25,11 +27,11 @@ function App() {
 
       <Schema />
       {/* <Space height={"5em"} /> */}
+      <Schema2 />
 
       <Faq />
-      <Space height={"5em"} />
-      <Contact />
-      <Space height={"5em"} />
+      <More />
+      <SpaceBlack height={"5em"} />
 
       <Footer />
 

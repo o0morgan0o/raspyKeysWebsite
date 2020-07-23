@@ -1,16 +1,47 @@
 @import "./constants.scss";
 
+.functions-card-body {
+  text-align: justify;
+}
+.function-card-text {
+  color: $black;
+  font-weight: $fontWeightStandard;
+}
+
+.function-card-title {
+}
+.function-title {
+  height: 50px;
+  line-height: 50px;
+}
+
 .functions-container {
   .marker {
-    // background-color: $primary;
-    margin-left: 10px;
     width: 90px;
-    border: 2.5px solid $primary;
+    border: 3px solid $primary;
+    background-color: $primary;
     border-radius: 5px;
     height: 4px;
-    margin-bottom: 2em;
+    // margin-bottom: 2em;
   }
-  .functions-card-title {
-    margin-bottom: 1.2em;
-  }
+}
+
+.svg-container-1 {
+  background-image: url("../svg/functionEar.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+
+.svg-container-2 {
+  background-image: url("../svg/functionDrums.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
+}
+.svg-container-3 {
+  background-image: url("../svg/functionRec.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 50px;
 }
