@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/raspyKeysWebsite/precache-manifest.ad01901f68b922fe9146651d97440e1b.js"
+  "/raspyKeysWebsite/precache-manifest.c5aa714d0df024fcfd92e7cb0403d6a8.js"
 );
 
 self.addEventListener('message', (event) => {

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc0b761dcaf15083a10f436b3b756dc6",
+    "revision": "8cf00b6eeafbf488d4362b93ada424c7",
     "url": "/raspyKeysWebsite/index.html"
   },
   {
