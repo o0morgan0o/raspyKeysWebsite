@@ -27,7 +27,7 @@ export default function Head() {
                         <h2 className="head-text">Based on a raspberry pi device, the RaspyKeys will be your new personal trainer for all digital piano players of all levels.</h2>
                         <br />
                         <br />
-                        <button className="btn btn-lg btn-primary ml-0 shadow-5 rounded-0">Support now on Kickstarter !</button>
+                        <a href="https://www.kickstarter.com/projects/raspykeys/raspykeys-become-a-better-musician" target="_blank"><button className="btn btn-lg btn-primary ml-0 shadow-5 rounded-0">Support now on Kickstarter !</button></a>
                         <br />
                     </div>
                 </div>

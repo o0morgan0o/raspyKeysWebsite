@@ -19,7 +19,7 @@ export default function More() {
 
                 </p>
                     <br />
-                    <button className="btn btn-lg btn-primary m-auto ml-0 shadow-5 btn-contact rounded-0">Support now on Kickstarter !</button>
+                    <a href="https://www.kickstarter.com/projects/raspykeys/raspykeys-become-a-better-musician"><button className="btn btn-lg btn-primary m-auto ml-0 shadow-5 btn-contact rounded-0">Support now on Kickstarter !</button></a>
                     <br />
                 </div>
             </div>
