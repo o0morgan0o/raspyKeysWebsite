@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/raspyKeysWebsite/static/css/main.e70b8e5b.chunk.css",
+    "main.js": "/raspyKeysWebsite/static/js/main.5771984a.chunk.js",
+    "main.js.map": "/raspyKeysWebsite/static/js/main.5771984a.chunk.js.map",
+    "runtime-main.js": "/raspyKeysWebsite/static/js/runtime-main.122ea611.js",
+    "runtime-main.js.map": "/raspyKeysWebsite/static/js/runtime-main.122ea611.js.map",
+    "static/js/2.8f062ebb.chunk.js": "/raspyKeysWebsite/static/js/2.8f062ebb.chunk.js",
+    "static/js/2.8f062ebb.chunk.js.map": "/raspyKeysWebsite/static/js/2.8f062ebb.chunk.js.map",
+    "index.html": "/raspyKeysWebsite/index.html",
+    "precache-manifest.ad01901f68b922fe9146651d97440e1b.js": "/raspyKeysWebsite/precache-manifest.ad01901f68b922fe9146651d97440e1b.js",
+    "service-worker.js": "/raspyKeysWebsite/service-worker.js",
+    "static/css/main.e70b8e5b.chunk.css.map": "/raspyKeysWebsite/static/css/main.e70b8e5b.chunk.css.map",
+    "static/js/2.8f062ebb.chunk.js.LICENSE.txt": "/raspyKeysWebsite/static/js/2.8f062ebb.chunk.js.LICENSE.txt",
+    "static/media/_head.scss": "/raspyKeysWebsite/static/media/raspiHeadPicCrop.e08c63b4.png",
+    "static/media/_functions.scss": "/raspyKeysWebsite/static/media/functionRec.af5fe488.svg",
+    "static/media/logo.svg": "/raspyKeysWebsite/static/media/logo.5d8bc9bd.svg",
+    "static/media/part1.png": "/raspyKeysWebsite/static/media/part1.c1b61add.png",
+    "static/media/part2.png": "/raspyKeysWebsite/static/media/part2.40f36b5e.png",
+    "static/media/part3.png": "/raspyKeysWebsite/static/media/part3.ebc8d92d.png",
+    "static/media/_faq.scss": "/raspyKeysWebsite/static/media/triangle.c0492007.svg",
+    "static/media/plus.svg": "/raspyKeysWebsite/static/media/plus.d088c776.svg",
+    "static/media/raspiAlone.png": "/raspyKeysWebsite/static/media/raspiAlone.7bcfc0b1.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.122ea611.js",
+    "static/js/2.8f062ebb.chunk.js",
+    "static/css/main.e70b8e5b.chunk.css",
+    "static/js/main.5771984a.chunk.js"
+  ]
+}
